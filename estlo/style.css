@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+   
+}
+body {
+    border: solid 1px black;
+}
+.header {
+    background-color: blue;
+    border: solid 1px black;
+}
+.main {
+    background-color: darkorange;
+}
+.footer {
+    background-color: aqua;
+}
