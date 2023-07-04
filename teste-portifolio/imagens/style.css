@@ -185,6 +185,8 @@ img {
     color: black;
 }
 .footer {
+    width: 100vw;
+    height: 100vh;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
