@@ -47,6 +47,7 @@ img {
     text-align: center;
     padding-top: 20px;
     font-size: 0.8em;
+   
     
   }  
 
@@ -56,6 +57,7 @@ img {
     height: 50px;
     border: solid 3px white;
     border-radius: 50px;
+    
 
    
 }
@@ -109,6 +111,7 @@ img {
     background-color: lightgoldenrodyellow;
     color: black;
     
+    
 
     justify-content: center;
     justify-content: space-around; 
@@ -121,6 +124,7 @@ img {
     border: solid 1px black;
     text-align: center;
     border: 0;
+    padding-bottom: 40px;
     
 
    
@@ -147,6 +151,7 @@ img {
     border: solid 1px black;
     text-align: center;
     border: 0;
+    padding-bottom: 40px;
 }
 .caixa-2 h2 {
     font-family:'Staatliches', cursive;;
@@ -167,6 +172,7 @@ img {
     border: solid 1px black;
     text-align: center;
     border: 0;
+    padding-bottom: 40px;
 }
 .caixa-3 h2 {
     font-family:'Staatliches', cursive;;
@@ -234,16 +240,23 @@ img {
 
 .caixa-1 p:hover {
     background-color: white;
+    margin-top: 15px;
+    border-radius: 20px;
 
 }
 .caixa-2 p:hover {
     background-color: white;
+    margin-top: 15px;
+    border-radius: 20px;
 
 }
 .caixa-3 p:hover {
     background-color: white;
+    margin-top: 15px;
+    border-radius: 20px;
 
 }
+
    
 
 
