@@ -90,7 +90,26 @@
     outline: none;
 }
 
+.details-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.details-4 label {
+    margin-bottom: 5px;
+    font-size: 1.3em;
+}
+
+.details-4 #iemail {
+    padding: 1em;
+    background-color: #f2f2f2;
+    border: none;
+    outline: none;
+}
+
 .btn {
+    margin-top: 1em;
     padding: 1em;
     border: none;
     background-color: rgb(232, 241, 252);
@@ -105,9 +124,14 @@
 
 
 .itens span, p, a {
+    display: flex;
+    flex-direction: column;
     color: gray;
-   text-decoration: none;
-   margin-top: 5px;
+    text-decoration: none; 
+}
+
+.itens span {
+    margin-top: 60px;
 }
 
 .itens a:hover {
