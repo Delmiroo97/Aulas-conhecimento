@@ -114,6 +114,26 @@
     border-bottom: 1px solid gray;
 }
 
+@media (max-width: 450px) {
+
+    #login {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .img {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .itens {
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
+
 
 
 
