@@ -1,0 +1,465 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(223, 203, 195);
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    background-color: rgb(223, 203, 195);
+    color: lightcyan;
+    height: 100px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header, p {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.header, a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    
+    background-color: rgb(223, 203, 195);
+    height: 100vw;
+    width: 100%;
+    font-size: 60px;
+    justify-content: space-around;
+    justify-content: flex-start;
+    align-items: center;
+   
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(240, 230, 230);
+    height: 80px;
+    font-size: 20px;
+    color: lightblue;
+}
+
+.footer > p > a {
+    color:lightblue
+}
+
+.item {
+    background: black;
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;   
+}
+
+.article-1 {
+    background: url(imagens/saco-de-papel-com-uma-variedade-de-pao.jpg);
+    background-position: center, top; 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.caixa {
+    
+    display: flex;
+    flex-direction: column;
+    width: 580px;
+    height: 380px;
+    background-color: white;
+    margin-right: 100px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.349);
+}
+.article-1 > .caixa > h2 {
+    color: black;
+    text-align: right;
+    margin-right: 230px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-family: PT Sans Narrow sans-serif;
+    font-size: 50px;  
+}  
+
+.article-1 > .caixa > p {
+    color: black;
+    text-align: right;
+    margin-right: 90px;
+    font-family: PT Sans Narrow ,sans-serif;
+    font-size: 30px;   
+}
+
+.article-2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 80px;
+    padding-left: 30px;
+    background-color: rgb(223, 203, 195);
+}
+
+.card1 {
+    
+    width: 350px;
+    height: 450px;
+    background-color: white;
+    margin-right: 30px;
+    border-radius: 10px;  
+    margin-top: 10px; 
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.349);
+    
+}
+
+.img1 {
+   
+    width: 350px;
+    height: 250px;
+    background: url(imagens/detalhe-macro-de-pao-frances.jpg);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    
+}
+.texto1 > h3 {
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bolder;
+}
+
+.texto1 > p {
+    color: rgba(0, 0, 0, 0.856);
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-align: center;
+    font-size: 0.6em;
+   
+}
+
+.texto1 > .numero1 {
+    color: lightskyblue;
+    margin-top: 20px;
+    font-size: 1em;
+}
+
+.card2 {
+    
+    width: 350px;
+    height: 450px;
+    background-color: white;
+    margin-right: 30px;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.349);
+}
+
+.img2 {
+   
+    width: 350px;
+    height: 250px;
+    background: url(imagens/fatias-de-pao-branco-com-baguete-francesa.jpg);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.texto2 > h3 {
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bolder;
+}
+
+.texto2 > p {
+    color: black;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-align: center;
+    font-size: 0.6em;
+}
+
+.texto2 > .numero2 {
+    color: lightskyblue;
+    margin-top: 20px;
+    font-size: 1em;
+}
+
+.card3 {
+    
+    width: 350px;
+    height: 450px;
+    background-color: white;
+    margin-right: 30px;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.349);
+}
+
+.img3 {
+   
+    width: 350px;
+    height: 250px;
+    background: url(imagens/pao-de-fermento-caseiro.jpg);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.texto3 > h3 {
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bolder;
+}
+
+.texto3 > p {
+    color: black;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-align: center;
+    font-size: 0.6em;
+}
+
+.texto3 > .numero3 {
+    color: lightskyblue;
+    margin-top: 20px;
+    font-size: 1em;
+}
+
+.card4 {
+    
+    width: 350px;
+    height: 450px;
+    background-color: white;
+    margin-right: 30px;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.349);
+}
+
+.img4 {
+   
+    width: 350px;
+    height: 250px;
+    background: url(imagens/feche-as-maos-segurando-um-pao.jpg);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.texto4 > h3 {
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bolder;
+}
+
+.texto4 > p {
+    color: black;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-align: center;
+    font-size: 0.6em;
+}
+
+.texto4 > .numero4 {
+    color: lightskyblue;
+    margin-top: 20px;
+    font-size: 1em;
+}
+
+.card5 {
+    
+    width: 350px;
+    height: 450px;
+    background-color: white;
+    margin-right: 30px;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.349);
+}
+
+.img5 {
+   
+    width: 350px;
+    height: 250px;
+    background: url(imagens/pao-integral-na-mesa.jpg);
+    background-repeat: no-repeat;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.texto5 > h3 {
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bolder;
+}
+
+.texto5 > p {
+    color: black;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-align: center;
+    font-size: 0.6em;
+}
+
+.texto5 > .numero5 {
+    color: lightskyblue;
+    margin-top: 20px;
+    font-size: 1em;
+}
+
+.card6 {
+    
+    width: 350px;
+    height: 450px;
+    background-color: white;
+    margin-right: 30px;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.349);
+}
+
+.img6 {
+   
+    width: 350px;
+    height: 250px;
+    background: url(imagens/close-up-de-um-delicioso-bolo-de-chocolate.jpg);
+    background-repeat: no-repeat;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.texto6 > h3 {
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bolder;
+}
+
+.texto6 > p {
+    color: black;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-align: center;
+    font-size: 0.6em;
+}
+
+.texto6 > .numero6 {
+    color: lightskyblue;
+    margin-top: 20px;
+    font-size: 1em;
+}
+
+.card7 {
+    
+    width: 350px;
+    height: 450px;
+    background-color: white;
+    margin-right: 30px;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.349);
+}
+
+.img7 {
+   
+    width: 350px;
+    height: 250px;
+    background: url(imagens/saborosa-variedade-de-comida-brasileira.jpg);
+    background-repeat: no-repeat;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.texto7 > h3 {
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bolder;
+}
+
+.texto7 > p {
+    color: black;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-align: center;
+    font-size: 0.6em;
+}
+
+.texto7 > .numero7 {
+    color: lightskyblue;
+    margin-top: 20px;
+    font-size: 1em;
+}
+
+.card8 {
+    
+    width: 350px;
+    height: 450px;
+    background-color: white;
+    margin-right: 30px;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.349);
+}
+
+.img8 {
+   
+    width: 350px;
+    height: 250px;
+    background: url(imagens/pao-na-placa-de-madeira.jpg);
+    background-repeat: no-repeat;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.texto8 > h3 {
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bolder;
+}
+
+.texto8 > p {
+    color: black;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-align: center;
+    font-size: 0.6em;
+}
+
+.texto8 > .numero8 {
+    color: lightskyblue;
+    margin-top: 20px;
+    font-size: 1em;
+}
+
+
+
+

@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0,0.5)),url(imagens/urbano-trafego-cityscape.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img{
+    width: 600px;
+    height: 600px;
+    background: url(imagens/arranha-ceus-baixo-angulo-vista.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.caixa {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+    padding: 1em;
+    gap: 1em;
+    background-color: white;
+    
+}
+
+.itens {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    width: 600px;
+    height: 600px;
+    background-color: #f2f2f2;
+}
+
+.itens h2 {
+    padding: 1em;
+    font-size: 2.0em;
+    color: rgb(164, 193, 230);
+}
+
+.details-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.details-1 label {
+    margin-bottom: 5px;
+    font-size: 1.3em;
+}
+
+.details-1 #iusername {
+    padding: 1em;
+    background-color: #f2f2f2;
+    border: none;
+    outline: none;
+}
+
+.details-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.details-2 label {
+    margin-bottom: 5px;
+    font-size: 1.3em;
+   
+}
+
+.details-2 #ipassword {
+    padding: 1em;
+    background-color: #f2f2f2;
+    border: none;
+    outline: none;
+}
+
+.btn {
+    padding: 1em;
+    border: none;
+    background-color: rgb(232, 241, 252);
+    color: gray;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color:  rgb(173, 205, 245);
+    color: black;
+}
+
+.itens span, p {
+    color: gray;
+}
+
+
+
+

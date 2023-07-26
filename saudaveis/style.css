@@ -1,0 +1,523 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 100px;
+    height: 200px;
+    gap: 50px;
+    background-color: white;
+}
+
+.header > a {
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    color: rgb(129, 124, 124);
+    text-decoration: none;
+    border-bottom: 3px solid green;
+}
+
+.header > a:hover {
+    background-color: #8dc53f;
+    color: #ffffff;
+    border: 0;
+    border-radius: 10px;
+    padding: 0.2em 0.5em;
+}
+
+
+.logo-img {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background: url(imagens/logo-2.jpg);
+    background-position: center;
+}
+
+.container-flex {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: darkolivegreen;
+}
+
+.caixa-flex-img {
+    
+    
+    width: 100%;
+    height: 800px;
+    background: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0,0.7)), url(imagens/frutas-saudaveis-e-frescas-legumes-e-amendoas-sobre-superficie-texturizada-de-cimento-branco.jpg);
+    background-position: center bottom;
+    
+      
+}
+
+.caixa-flex-img > h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 80px;
+    font-size: 70px;
+    font-family: 'Lato', sans-serif;
+    color:#ffffff;
+}
+
+.caixa-flex-img > p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 15px;
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+}
+
+.caixa-flex01 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: space-around;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(221, 226, 230);
+    padding-bottom: 40px;
+}
+
+#servico-center {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #8dc53f;
+}
+
+.artigo-especialidades01 {
+    width: 500px;
+    height: 500px;
+    border-radius: 5px;
+    padding-bottom: 40px;
+    box-shadow: 0px 0px 5px 5px rgba(155, 154, 154, 0.267);
+    background-color: white;
+}
+
+.capa01 {
+    width: 100%;
+    height: 65%;
+    background: url(imagens/equipamento-esportivo.jpg);
+}
+
+.desc > h2 {
+    font-family: 'Lato', sans-serif;
+    margin: 10px;
+    color: rgb(107, 207, 107);
+}
+
+.desc > p {
+    font-family: 'Lato', sans-serif;
+    margin: 10px;
+    color: rgb(71, 71, 71);
+    
+}
+
+.artigo-especialidades02 {
+    width: 500px;
+    height: 500px;
+    border-radius: 5px;
+    padding-bottom: 40px;
+    box-shadow: 0px 0px 5px 5px rgba(155, 154, 154, 0.267);
+    background-color: white;
+}
+
+.capa02 {
+    width: 100%;
+    height: 65%;
+    background: url(imagens/os-legumes-de-uma-cesta-na-mesa-de-madeira.jpg);
+    background-position: center center;
+}
+.desc > h2 {
+    font-family: 'Lato', sans-serif;
+    margin: 10px;
+    color: rgb(107, 207, 107);
+}
+
+.desc > p {
+    font-family: 'Lato', sans-serif;
+    margin: 10px;
+    color: rgb(71, 71, 71);
+}
+
+.artigo-especialidades03 {
+    width: 500px;
+    height: 500px;
+    border-radius: 5px;
+    padding-bottom: 40px;
+    box-shadow: 0px 0px 5px 5px rgba(155, 154, 154, 0.267);
+    background-color: white;
+}
+
+.capa03 {
+    width: 100%;
+    height: 65%;
+    background: url(imagens/bela-jovem-desfrutando-de-um-jantar-saudavel.jpg);
+    background-position: center center;
+}
+.desc > h2 {
+    font-family: 'Lato', sans-serif;
+    margin: 10px;
+    color: rgb(107, 207, 107);
+}
+
+.desc > p {
+    font-family: 'Lato', sans-serif;
+    margin: 10px;
+    color: rgb(71, 71, 71);
+}
+
+.artigo-especialidades04 {
+    width: 500px;
+    height: 500px;
+    border-radius: 5px;
+    padding-bottom: 40px;
+    box-shadow: 0px 0px 5px 5px rgba(155, 154, 154, 0.267);
+    background-color: white;
+}
+
+.capa04 {
+    width: 100%;
+    height: 65%;
+    background: url(imagens/pele-radiante-linda-e-saudavel-de-mulher-sem-maquiagem-retrato-de-menina-sorrindo-contra-a-parede-de-frutas.jpg);
+    background-position: center center;
+}
+.desc > h2 {
+    font-family: 'Lato', sans-serif;
+    margin: 10px;
+    color: rgb(107, 207, 107);
+}
+
+.desc > p {
+    font-family: 'Lato', sans-serif;
+    margin: 10px;
+    color: rgb(71, 71, 71);
+}
+
+.artigo-especialidades05 {
+    width: 500px;
+    height: 500px;
+    border-radius: 5px;
+    padding-bottom: 40px;
+    box-shadow: 0px 0px 5px 5px rgba(155, 154, 154, 0.267);
+    background-color: white;
+}
+
+.capa05 {
+    width: 100%;
+    height: 65%;
+    background: url(imagens/comida-saudavel-conceito-e-estilo-de-vida-esportivo-almoco-vegetariano-cafe-da-manha-saudavel-nutricao-apropriada-vista-do-topo-postura-plana.jpg);
+    background-position: center center;
+}
+.desc > h2 {
+    font-family: 'Lato', sans-serif;
+    margin: 10px;
+    color: rgb(107, 207, 107);
+}
+
+.desc > p {
+    font-family: 'Lato', sans-serif;
+    margin: 10px;
+    color: rgb(71, 71, 71);
+}
+
+.artigo-especialidades06 {
+    width: 500px;
+    height: 500px;
+    border-radius: 5px;
+    padding-bottom: 40px;
+    box-shadow: 0px 0px 5px 5px rgba(155, 154, 154, 0.267);
+    background-color: white;
+}
+
+.capa06 {
+    width: 100%;
+    height: 65%;
+    background: url(imagens/flay-leigos-de-escala-e-pesos.jpg);
+    background-position: center center;
+}
+.desc > h2 {
+    font-family: 'Lato', sans-serif;
+    margin: 10px;
+    color: rgb(107, 207, 107);
+}
+
+.desc > p {
+    font-family: 'Lato', sans-serif;
+    margin: 10px;
+    color: rgb(71, 71, 71);
+}
+
+.caixa-flex02 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 38px;
+    justify-content: space-around;
+    justify-content: center;
+    width: 100%;
+    height: 800px;
+    background-color: white;
+}
+
+#galeria-center {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #8dc53f;
+}
+
+.picture01 {
+    width: 350px;
+    height: 200px;
+    border: solid 0.8px green;
+    background: url(imagens/flay-leigos-de-escala-e-pesos-mini.jpg);
+    
+}
+
+.picture02 {
+    width: 350px;
+    height: 200px;
+    border: solid 0.8px green;
+    background: url(imagens/mulher-jovem-com-fita-metrica-na-cozinha.jpg);
+    background-position: center bottom;
+}
+
+.picture03 {
+    width: 350px;
+    height: 200px;
+    border: solid 0.8px green;
+    background: url(imagens/pele-radiante-linda-e-saudavel-de-mulher-sem-maquiagem-retrato-de-menina-sorrindo-contra-a-parede-de-frutas-mini.jpg);
+    background-position: center bottom;
+}
+
+.picture04 {
+    width: 350px;
+    height: 200px;
+    border: solid 0.8px green;
+    background: url(imagens/bela-jovem-desfrutando-de-um-jantar-saudave-mini.jpg);
+    background-position: center bottom;
+}
+
+.picture05 {
+    width: 350px;
+    height: 200px;
+    border: solid 0.8px green;
+    background: url(imagens/equipamento-esportivo-mini.jpg);
+    background-position: center bottom;
+}
+
+.picture06 {
+    width: 350px;
+    height: 200px;
+    border: solid 0.8px green;
+    background: url(imagens/os-legumes-de-uma-cesta-na-mesa-de-madeira-mini.jpg);
+    background-position: center bottom;
+}
+
+.picture07 {
+    width: 350px;
+    height: 200px;
+    border: solid 0.8px green;
+    background: url(imagens/comida-saudavel-conceito-e-estilo-de-vida-esportivo-almoco-vegetariano-cafe-da-manha-saudavel-nutricao-apropriada-vista-do-topo-postura-plana-mini.jpg);
+    background-position: center bottom;
+}
+
+.picture08 {
+    width: 350px;
+    height: 200px;
+    border: solid 0.8px green;
+    background: url(imagens/mulher-esportiva-na-cozinha-usando-telefone-celular-mini.jpg);
+    background-position: center bottom;
+}
+
+.caixa-flex03 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    background-color: rgb(221, 226, 230);
+}
+
+#contact {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #8dc53f;
+    
+    
+}
+
+.wpp {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    font-size: 25px;
+    font-family: 'Lato', sans-serif; 
+    margin-bottom: 150px;
+    
+}
+ 
+
+.phone {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    font-size: 25px;
+    font-family: 'Lato', sans-serif; 
+    margin-bottom: 150px;
+   
+} 
+
+
+.email {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    font-size: 25px;
+    font-family: 'Lato', sans-serif; 
+    margin-bottom: 150px;
+    
+} 
+
+
+.location {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    font-size: 25px;
+    font-family: 'Lato', sans-serif; 
+    margin-bottom: 150px;
+    
+} 
+
+h3 {
+    color: rgb(137, 199, 137);
+}
+
+
+.wpp p {
+    font-size: 15px;
+}
+
+.phone p {
+    font-size: 15px;
+}
+
+.email p {
+    font-size: 15px;
+}
+
+.location p {
+    font-size: 15px;
+}
+
+.caixa-flex04 {
+    width: 100%;
+    height: 600px;
+    background-color: white;
+}
+
+#contact2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #8dc53f;  
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    padding: 50px;
+}
+
+form > p input[type=text] {
+    width: 600px;
+    margin: 5px;
+    font-size: 1.2em;
+    color: #7b7979;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    border: 1px #dee5ed solid;
+    border-radius: 8px;
+    padding: 0.6em;
+}
+
+form > p input[type=email] {
+    width: 600px;
+    margin: 5px;
+    font-size: 1.2em;
+    color: #7b7979;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    border: 1px #dee5ed solid;
+    border-radius: 8px;
+    padding: 0.6em;
+    
+}
+
+form > p input#imensagem[type=text] {
+    height: 150px;
+}
+
+form > p input[type=submit] {
+    width: 160px;
+    float: left;
+    margin-top: 5px;
+    background-color: #8dc53f;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 0.5em 0em;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
