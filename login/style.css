@@ -103,8 +103,15 @@
     color: black;
 }
 
-.itens span, p {
+
+.itens span, p, a {
     color: gray;
+   text-decoration: none;
+   margin-top: 5px;
+}
+
+.itens a:hover {
+    border-bottom: 1px solid gray;
 }
 
 
