@@ -125,26 +125,16 @@
         display: flex;
         flex-direction: column;
         margin: 0 auto;
+        
     }
 
     .itens {
-        display: block;
-        padding-left: 2em;  
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
     }
 
-    .itens h2 {
-        display: block;
-        padding-left: 3.5em;  
-    }
-
-    .itens a {
-        display: block;
-        padding-left: 7.5em;   
-    }
-
-    .itens span a {
-        margin-top: 2em;
-    }
+   
 
     
 }
