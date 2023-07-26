@@ -128,9 +128,22 @@
     }
 
     .itens {
-        display: flex;
-        flex-direction: column;
-        margin-right: 8em;
+        display: block;
+        padding-left: 2em;  
+    }
+
+    .itens h2 {
+        display: block;
+        padding-left: 3.5em;  
+    }
+
+    .itens a {
+        display: block;
+        padding-left: 7.5em;   
+    }
+
+    .itens span a {
+        margin-top: 2em;
     }
 
     
