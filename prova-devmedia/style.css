@@ -261,3 +261,13 @@ form {
     font-weight: bold;
 }
 
+.btn:hover {
+    cursor: pointer;
+    background-color: grey;
+}
+
+.header p:hover {
+    cursor: pointer;
+    border-bottom: 2px solid grey;
+    padding-bottom: 5px;
+}
