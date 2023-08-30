@@ -1,0 +1,192 @@
+@charset "UTF-8"; 
+
+/*          <select id="select">
+                <option value="#">Selecione o Estado</option>
+                <option value="BA">BA</option>
+                <option value="Minas Gerais">MG</option>
+                <option value="São Paulo">SP</option>
+                <option value="Rio de Janeiro">RJ</option>
+                <option value="Mato Grosso">MT</option>
+                <option value="Recife">PE</option>
+                <option value="Manaus">AM</option>
+                <option value="Espirito Santo">ES</option>
+                <option value="Rio Grande do Sul">RS</option>
+            </select> 
+            
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: antiquewhite;
+    background-size: cover;
+    background-position: center center;
+}
+
+#box-border {
+    display: flex;
+    width: 1000px;
+    height: 500px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.151);
+}
+
+.content {
+    background: url(imagens/FvUaghtWwAI0jKA.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-width: 25%;
+    height: 500px;  
+}
+
+.content-2 {
+    background: url(imagens/pedro.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-width: 25%;
+    height: 500px;  
+}
+
+.box-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 50%;
+    gap: 10px;
+    padding-left: 20px;
+    background-color: black;
+    color: white;
+}
+
+.box-menu h1 {
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    font-size: 2.8em;
+    color: rgb(236, 53, 53);
+    max-width: 20; 
+    padding-bottom: 30px;
+    margin-right: 25px;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+label #iemail {
+    width: 300px;
+    height: 25px;
+    border: 0;
+    outline: 0;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+label #isenha {
+    width: 300px;
+    height: 25px;
+    border: 0;
+    outline: 0;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+label #isenha2 {
+    width: 300px;
+    height: 25px;
+    border: 0;
+    outline: 0;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+#res {
+    padding: 10px;
+    background-color: rgb(238, 58, 58);
+    color: black;
+    margin-left: 20px;
+    border: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+p {
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: lowercase;
+    font-weight: bold;
+}
+
+footer {
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+    font-style: italic;
+}
+
+span {
+    
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
