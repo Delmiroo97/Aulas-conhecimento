@@ -1,0 +1,90 @@
+@charset "UTF-8"; 
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,1000&display=swap');
+
+#header {
+    width: 100%;
+    height: 100px; 
+    display: flex;  
+    justify-content: space-between;
+    padding: 30px 150px;
+}
+
+.itens-header {
+    color: white;
+    display: flex;
+    gap: 20px;
+    font-size: 1.5em;
+}
+
+.itens-header:hover {
+    cursor: pointer;
+}
+
+#container {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0,0.8)), url(img/background.jpg);
+}
+
+#content {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    color: white;
+    
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;   
+    gap: 5px; 
+    padding: 0 150px;
+}
+
+.text-content p {
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+.text-content h1 {
+    font-family: 'Mulish', sans-serif;
+   font-size: 2em;
+   font-weight: 900;
+}
+
+button {
+    background-color: #b69268;
+    padding: 8px;
+    text-transform: uppercase;
+    border: 0;
+    color: white;
+    font-weight: bold;
+    width: 300px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.btn-wpp {
+    width: 60px;
+    height: 60px;
+    margin-left: 200px;
+    background: url(img/btn-whats.svg);
+    background-size: cover;
+}
+
+.btn-wpp:hover {
+    cursor: pointer;
+}
+

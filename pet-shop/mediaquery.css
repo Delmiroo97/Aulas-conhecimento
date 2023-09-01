@@ -1,0 +1,162 @@
+@charset "UTF-8"; 
+
+@media only screen and (max-width: 600px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    #content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+
+    .text-content {
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        font-size: 0.8em;
+        padding: 0;
+        
+        }   
+
+        .text-content, h1 h2 {
+            display: flex;
+            flex-direction: column;
+            max-width: 300px;
+            text-align: center;
+            padding: 0;
+            position: relative;
+            right: 50px;
+        }
+
+        .text-content h2 {
+            margin-top: 30px;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 300px;
+            height: 500px;
+            position: relative;
+            left: 25px;
+            bottom: 25px;
+            background-color: rgba(255, 228, 181, 0.808);
+            padding: 0;
+            margin: 0;
+            
+        }
+
+        #separation {
+            text-align: center;
+            font-size: 1em;
+        }
+
+        #itens {
+            display: flex;
+            flex-direction: column;
+            height: 1100px;
+           
+        }
+
+        .img01  {
+            width: 300px;
+            height: 300px;  
+        }
+
+        .img02  {
+            width: 300px;
+            height: 300px;  
+        }
+
+        .img03  {
+            width: 300px;
+            height: 300px;  
+        }
+
+        .dark-img {
+            display: flex;
+            flex-direction: column;
+            padding: 0;
+            
+        }
+
+        .location {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .location i {
+            position: relative;
+            right: 25px;
+            top: 20px;   
+        }
+
+        .location p {
+            position: relative;
+            top: 20px;
+            left: 10px;
+            font-size: 1.3em;
+        }
+
+        .main-text, h2 {
+            width: 100%;
+            position: relative;
+            bottom: 50px;
+            left: 50px;
+            font-size: 0.6em;
+            text-align: center;
+        }
+
+        .main-text p {
+            font-size: 0.8;
+            width: 400px;
+            position: relative;
+            bottom: 50px;
+            right: 3px;
+            margin-top: 10px; 
+        }
+
+        #box-content  {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .box-img {
+            margin-top: 20px;
+            width: 600px;
+            
+        }
+
+        .box-img02 {
+            position: relative;
+            left: 20px;
+            width: 600px;
+        }
+
+        .box02 h1 {
+            padding: 0;
+        }
+
+        .box-img03 {
+            position: relative;
+            width: 600px;
+        }
+
+        .box-img04 {
+            position: relative;
+            width: 600px;
+        }
+
+        #footer {
+           padding-top: 0;
+        }
+
+        
+        
+}
