@@ -48,6 +48,11 @@
             margin: 0;
             
         }
+        
+        .container p {
+           position: relative;
+           left: 18px;
+        }
 
         #separation {
             text-align: center;
