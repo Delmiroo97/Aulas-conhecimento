@@ -187,10 +187,300 @@
         left: 0;
         right: 23px;
         margin-top: 50px;
-       }
-
-        
-
-        
+       }        
         
 }
+
+@media (min-width: 600px) and (max-width: 768px) {
+    #content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+
+    .text-content {
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        font-size: 0.8em;
+        padding: 0;
+        
+        }   
+
+        .text-content, h1 h2 {
+            display: flex;
+            flex-direction: column;
+            max-width: 300px;
+            text-align: center;
+            padding: 0;
+            position: relative;
+            left: 10px;
+        }
+
+        .text-content h2 {
+            margin-top: 30px;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 300px;
+            height: 500px;
+            position: relative;
+            left: 10px;
+            bottom: 25px;
+            background-color: rgba(255, 228, 181, 0.808);
+            padding: 0;
+            margin: 0;
+            
+        }
+        
+        .container p {
+           position: relative;
+           left: 18px;
+        }
+
+        #separation {
+            text-align: center;
+            font-size: 1em;
+        }
+
+        #itens {
+            display: flex;
+            flex-direction: column;
+            height: 1100px;
+           
+        }
+
+        .img01  {
+            width: 300px;
+            height: 300px;  
+        }
+
+        .img02  {
+            width: 300px;
+            height: 300px;  
+        }
+
+        .img03  {
+            width: 300px;
+            height: 300px;  
+        }
+
+        .dark-img {
+            display: flex;
+            flex-direction: column;
+            padding: 0;
+            
+        }
+
+        .location {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .location i {
+            position: relative;
+            right: 25px;
+            top: 20px;   
+        }
+
+        .location p {
+            position: relative;
+            top: 20px;
+            left: 10px;
+            font-size: 1.3em;
+        }
+
+        .main-text, h2 {
+            width: 100%;
+            position: relative;
+            bottom: 50px;     
+            font-size: 0.5em;
+            text-align: center;
+        }
+
+        .main-text p {
+            font-size: 0.8;
+            width: 400px;
+            position: relative;
+            bottom: 50px;
+            left: 20px;
+            margin-top: 10px; 
+        }
+
+        #box-content  {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .box01 ul li {
+            position: relative;
+            left: 50%;
+        }
+
+        .box01 h3 {
+            position: relative;
+            left: 33%;
+        }
+
+        .box-img {
+            position: relative;
+            left: 110px;
+            margin-top: 20px;
+            width: 805px;
+            margin: 0;
+            
+            
+        }
+
+        .box-img02 {
+            position: relative;
+            left: 100px;
+            width: 820px;
+            margin: 0;
+            
+        }
+
+        .box02 h1 {
+            padding: 0;
+            position: relative;
+            left: 40px;
+            top: 65px;
+        }
+
+        .box-img03 {
+            position: relative;
+            width: 800px;
+        }
+
+        .box-img04 {
+            position: relative;
+            max-width: 800px;
+        }
+
+        #footer {
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+           width: 100%;
+           
+        }
+
+       .back-home {
+        position: relative;
+        left: 0;
+        right: 23px;
+        margin-top: 50px;
+       }
+}
+    
+@media (min-width: 768px) and (max-width: 992px) {
+    
+   .container {
+    position: relative;
+    bottom: 40px;
+    padding-bottom: 400px;
+   }
+
+   .container button {
+    position: relative;
+    bottom: 10px;
+    height: 30px;
+   }
+
+   .container p {
+    font-size: 0.9em;
+    position: relative;
+    left: 10px;
+   }
+
+   #itens {
+    justify-content: center;
+   }
+
+    .img01 {
+    width: 200px;
+    height: 200px;  
+    }
+
+    .img02 {
+    width: 200px;
+    height: 200px;
+    }
+
+    .img03 {
+    width: 200px;
+    height: 200px;
+    }
+
+    .dark-img {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;  
+    }
+
+    .location, i p  {
+        font-size: 0.8em;
+        margin-top: 40px;
+    }
+
+    .main-text {
+        font-size: 0.8em;
+        max-width: 400px;
+    }
+
+    .main-text, h2 p {
+        margin-bottom: 20px;
+    }
+
+    #box-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box01 h3 {
+        position: relative;
+        left: 148px;
+    }
+        
+    .box01 ul {
+        position: relative;
+        left: 180px;
+    }
+    
+    
+
+    .box-img {
+        width: 1020px;
+    }
+
+    .box-img02 {
+        width: 1020px;
+    }
+
+    .box-img03 {
+        width: 780px;
+    }
+
+    .box-img04 {
+        width: 780px;
+    }
+
+    #footer {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .back-home {
+        position: relative;
+        left: 0;
+    }
+}
+
+
+
