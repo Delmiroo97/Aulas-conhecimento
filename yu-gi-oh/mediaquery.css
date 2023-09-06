@@ -1,0 +1,36 @@
+
+
+@media only screen and (max-width: 600px) {
+    .header {
+        max-width: 600px;
+        height: 200px;
+        background: url(imagens/logo-header-min.jpg);
+        background-repeat: repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    #content {
+        height: auto;   
+    }
+
+    #content2 {
+        display: flex;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .box-content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .card-03 {
+        max-width: 100%;
+    }
+}
