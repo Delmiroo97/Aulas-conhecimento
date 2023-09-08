@@ -36,6 +36,17 @@
     font-family: 'Oswald', sans-serif;
     color: #353535;
     letter-spacing: 0.2rem;
+    cursor: pointer;
+}
+
+.itens li {
+    padding: 5px;
+    background-color: #c5c5c5;
+    border-radius: 10px;
+}
+
+.itens li:hover {
+    background-color: transparent;
 }
 
 
@@ -92,7 +103,14 @@ button {
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 0.2em;
     font-weight: bold;
-    
+    cursor: pointer;   
+}
+
+button:hover {
+    color: #eff6e0;
+    cursor: pointer;
+    background-color:#588157;
+   
 }
 
 .flex-img {
@@ -189,7 +207,7 @@ button {
     width: 1200px;
     height: 400px;
     display: flex;
-    background-color: #606c38;
+    background-color: #e7e7e7;
     justify-content: center;
     align-items: center;
 }
@@ -197,7 +215,7 @@ button {
 .text {
     max-width: 50%;
     font-size: 1.81rem;
-    color: #f8f9fa;
+    color: #606c38;
     font-family: 'Oswald', sans-serif;
     padding: 10px;
 }
@@ -205,5 +223,5 @@ button {
 .text02 {
     font-size: 1.13em;
     font-family: 'Oswald', sans-serif;
-    color: #f8f9fa;
+    color: #606c38;
 }
