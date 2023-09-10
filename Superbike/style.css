@@ -1,5 +1,6 @@
 @charset "UTF-8"; 
 
+
 * {
     margin: 0;
     padding: 0;
@@ -18,6 +19,8 @@
     --color07: #353535;
    
 }
+
+
 
 #header {
     width: 100% ;
